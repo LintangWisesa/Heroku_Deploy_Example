@@ -1,8 +1,7 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "name": "lintangwisesa",
+  "description": "Deploy Node.js App (Express) to Heroku",
+  "repository": "https://github.com/LintangWisesa/Heroku_Deploy_Example",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
 }
