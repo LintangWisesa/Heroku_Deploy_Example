@@ -1,39 +1,78 @@
-# node-js-getting-started
+![simplinnovation](https://4.bp.blogspot.com/-f7YxPyqHAzY/WJ6VnkvE0SI/AAAAAAAADTQ/0tDQPTrVrtMAFT-q-1-3ktUQT5Il9FGdQCLcB/s350/simpLINnovation1a.png)
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+# Deploy NodeJS (Express App) to Heroku
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+### Heroku ([https://www.heroku.com/](https://www.heroku.com/)) is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps. This platform is elegant, flexible, and easy to use, offering developers the simplest path to getting their apps to market. In this repo, I'll share the example of Node.js app (using Express) that can be deployed to Heroku. Follow my instructions below. Happy hacking!
 
-## Running Locally
+![simplinnovation_heroku](https://1.bp.blogspot.com/--CYt_O2JQNw/WsnI-GsvdwI/AAAAAAAAD-o/ForjXhspfuAwrtNm0R_wmnDxahnsOuiSwCLcBGAs/s320/heroku.png)
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+#### 1. Create an account by sign-up/login to [Heroku](https://www.heroku.com/).
 
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
+#### 2. Install Heroku CLI (Command Line Interface) globally then login:
+
+```shell
+$ npm install -g heroku-cli
+$ heroku --version
+$ heroku login
+```
+
+#### 3. Clone the Node.js boilerplate from my repo:
+
+```shell
+$ git clone https://github.com/LintangWisesa/Heroku_Deploy_Example.git
+```
+
+#### 4. Go to the repo then install all packages needed:
+
+```shell
+$ cd Heroku_Deploy_Example
 $ npm install
-$ npm start
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+#### 5. Edit Express app route on index.js! Make sure there is no error on your app by running index.js. Server will be running by default on localhost:5000!
 
-## Deploying to Heroku
-
+```shell
+$ node index
 ```
+
+#### or simply type:
+
+```shell
+  $ npm start
+```
+
+#### Open *localhost:5000* via browser, then try also to open *localhost:5000/something*. If everything's fine, the response will be similar to the picture below:
+
+![simplinnovation_ok](
+https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/server_is_working.png)
+
+#### 6. After that, create git repo locally then commit it:
+
+```shell
+$ git init
+$ git add .
+$ git commit –m "tes deploy heroku"
+```
+
+#### 7. Create Heroku project
+
+```shell
 $ heroku create
-$ git push heroku master
-$ heroku open
+
+  Creating app... done, ⬢ your_url_to_deploy
+  https://your_url_to_deploy.herokuapp.com/ |
+  https://git.heroku.com/your_url_to_deploy.git
 ```
-or
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+#### 8. Last step: deploy!
 
-## Documentation
+```shell
+$ git push https://git.heroku.com/your_url_to_deploy.git master
+```
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
+#### Try to open that URL via browser. Finish! Your app has just been deployed!
 
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+![simplinnovation_online](
+https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/server_is_online.png)
+
+### More information [click here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction).
