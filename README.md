@@ -11,28 +11,28 @@
 #### 2. Install Heroku CLI (Command Line Interface) globally then login:
 
 ```shell
-$ npm install -g heroku-cli
-$ heroku --version
-$ heroku login
+  $ npm install -g heroku-cli
+  $ heroku --version
+  $ heroku login
 ```
 
 #### 3. Clone the Node.js boilerplate from my repo:
 
 ```shell
-$ git clone https://github.com/LintangWisesa/Heroku_Deploy_Example.git
+  $ git clone https://github.com/LintangWisesa/Heroku_Deploy_Example.git
 ```
 
 #### 4. Go to the repo then install all packages needed:
 
 ```shell
-$ cd Heroku_Deploy_Example
-$ npm install
+  $ cd Heroku_Deploy_Example
+  $ npm install
 ```
 
 #### 5. Edit Express app route on index.js! Make sure there is no error on your app by running index.js. Server will be running by default on localhost:5000!
 
 ```shell
-$ node index
+  $ node index
 ```
 
 #### or simply type:
@@ -44,35 +44,35 @@ $ node index
 #### Open *localhost:5000* via browser, then try also to open *localhost:5000/something*. If everything's fine, the response will be similar to the picture below:
 
 ![simplinnovation_ok](
-https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/server_is_working.png)
+https://raw.githubusercontent.com/LintangWisesa/Heroku_Deploy_Example/master/heroku_local.png)
 
 #### 6. After that, create git repo locally then commit it:
 
 ```shell
-$ git init
-$ git add .
-$ git commit –m "tes deploy heroku"
+  $ git init
+  $ git add .
+  $ git commit –m "tes deploy heroku"
 ```
 
 #### 7. Create Heroku project
 
 ```shell
-$ heroku create
+  $ heroku create
 
-  Creating app... done, ⬢ your_url_to_deploy
-  https://your_url_to_deploy.herokuapp.com/ |
-  https://git.heroku.com/your_url_to_deploy.git
+    Creating app... done, ⬢ your_url_to_deploy
+    https://your_url_to_deploy.herokuapp.com/ |
+    https://git.heroku.com/your_url_to_deploy.git
 ```
 
 #### 8. Last step: deploy!
 
 ```shell
-$ git push https://git.heroku.com/your_url_to_deploy.git master
+  $ git push https://git.heroku.com/your_url_to_deploy.git master
 ```
 
 #### Try to open that URL via browser. Finish! Your app has just been deployed!
 
 ![simplinnovation_online](
-https://raw.githubusercontent.com/LintangWisesa/OpeNode_Deploy_Example/master/server_is_online.png)
+https://raw.githubusercontent.com/LintangWisesa/Heroku_Deploy_Example/master/heroku_online.png)
 
 ### More information [click here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction).
