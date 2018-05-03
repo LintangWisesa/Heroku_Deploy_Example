@@ -76,3 +76,14 @@ https://raw.githubusercontent.com/LintangWisesa/Heroku_Deploy_Example/master/her
 https://raw.githubusercontent.com/LintangWisesa/Heroku_Deploy_Example/master/heroku_online.png)
 
 ### More information [click here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction).
+
+#
+
+#### Lintang Wisesa :love_letter: _lintangwisesa@ymail.com_
+
+[Facebook](https://www.facebook.com/lintangbagus) | 
+[Twitter](https://twitter.com/Lintang_Wisesa) |
+[Google+](https://plus.google.com/u/0/+LintangWisesa1) |
+[Youtube](https://www.youtube.com/user/lintangbagus) | 
+:octocat: [GitHub](https://github.com/LintangWisesa) |
+[Hackster](https://www.hackster.io/lintangwisesa)
