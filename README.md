@@ -70,6 +70,12 @@ https://raw.githubusercontent.com/LintangWisesa/Heroku_Deploy_Example/master/her
   $ git push https://git.heroku.com/your_url_to_deploy.git master
 ```
 
+#### or simply type:
+
+```shell
+  $ git push heroku master
+```
+
 #### Try to open that URL via browser. Finish! Your app has just been deployed!
 
 ![simplinnovation_online](
