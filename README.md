@@ -11,7 +11,7 @@
 #### 2. Install Heroku CLI (Command Line Interface) globally then login:
 
 ```shell
-  $ npm install -g heroku-cli
+  $ npm install -g heroku
   $ heroku --version
   $ heroku login
 ```
